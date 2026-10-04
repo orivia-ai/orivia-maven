@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.orivia",
+    "module": "mediation-max",
+    "version": "1.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.orivia",
+          "module": "monetization",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediation-max-1.16.0.aar",
+          "url": "mediation-max-1.16.0.aar",
+          "size": 136266,
+          "sha512": "44a92086f2636041b158b569e8938b5e57fc54f013712678aa3dd70f24727b7793fb13e8720cad306dd04a7eb9937d5ff1d64e65f149e9058ee5c09c6db2fceb",
+          "sha256": "63f42c3fea0bdb12b005807ce066718fd6cce8fc15fcdd0950436669b4052e8e",
+          "sha1": "ecd08edc3d289f5b9c1f0784544061178cbd3c9d",
+          "md5": "5e8ea39812ce6408f7c8bf1223044960"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "ai.orivia",
+          "module": "monetization",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediation-max-1.16.0.aar",
+          "url": "mediation-max-1.16.0.aar",
+          "size": 136266,
+          "sha512": "44a92086f2636041b158b569e8938b5e57fc54f013712678aa3dd70f24727b7793fb13e8720cad306dd04a7eb9937d5ff1d64e65f149e9058ee5c09c6db2fceb",
+          "sha256": "63f42c3fea0bdb12b005807ce066718fd6cce8fc15fcdd0950436669b4052e8e",
+          "sha1": "ecd08edc3d289f5b9c1f0784544061178cbd3c9d",
+          "md5": "5e8ea39812ce6408f7c8bf1223044960"
+        }
+      ]
+    }
+  ]
+}
