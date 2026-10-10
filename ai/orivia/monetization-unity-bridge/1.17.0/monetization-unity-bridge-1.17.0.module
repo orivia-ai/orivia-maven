@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.orivia",
+    "module": "monetization-unity-bridge",
+    "version": "1.17.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monetization-unity-bridge-1.17.0.aar",
+          "url": "monetization-unity-bridge-1.17.0.aar",
+          "size": 17106,
+          "sha512": "a0b5e7b3147afeeca58c7bd334abe18795696545c56bb632361a54789da19c6c474577cada860352d09f3c6d1cca211ae789edc8773112f51b46be81abf4b38f",
+          "sha256": "38630b05f4762e5e5db2ed8380609472772c9fbc266b9c81d7a3feb2793927b8",
+          "sha1": "efa6449d9c7cc48456ab3527031f9b323d2cc08d",
+          "md5": "f38c850a6021291b49d858e5a0d8b6f6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monetization-unity-bridge-1.17.0.aar",
+          "url": "monetization-unity-bridge-1.17.0.aar",
+          "size": 17106,
+          "sha512": "a0b5e7b3147afeeca58c7bd334abe18795696545c56bb632361a54789da19c6c474577cada860352d09f3c6d1cca211ae789edc8773112f51b46be81abf4b38f",
+          "sha256": "38630b05f4762e5e5db2ed8380609472772c9fbc266b9c81d7a3feb2793927b8",
+          "sha1": "efa6449d9c7cc48456ab3527031f9b323d2cc08d",
+          "md5": "f38c850a6021291b49d858e5a0d8b6f6"
+        }
+      ]
+    }
+  ]
+}

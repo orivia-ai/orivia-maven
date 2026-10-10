@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.orivia",
+    "module": "monetization",
+    "version": "1.17.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monetization-1.17.0.aar",
+          "url": "monetization-1.17.0.aar",
+          "size": 416111,
+          "sha512": "7fd33dc025aa2a9d2606afd11a8fd0e62c30a0619cd1262875e9001c93f17381dead9c80ec2e012cec2f43a85de2b087fb5d31f3584c63ab328955276d673b0a",
+          "sha256": "d26ea45e419a8f7ac7b2b54881877cc93cb328792979f648c4078a33350006c1",
+          "sha1": "458d4b06316799826652630321bfdf1df15d646e",
+          "md5": "9eeeba80b4dd555add7d027df6cd746a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monetization-1.17.0.aar",
+          "url": "monetization-1.17.0.aar",
+          "size": 416111,
+          "sha512": "7fd33dc025aa2a9d2606afd11a8fd0e62c30a0619cd1262875e9001c93f17381dead9c80ec2e012cec2f43a85de2b087fb5d31f3584c63ab328955276d673b0a",
+          "sha256": "d26ea45e419a8f7ac7b2b54881877cc93cb328792979f648c4078a33350006c1",
+          "sha1": "458d4b06316799826652630321bfdf1df15d646e",
+          "md5": "9eeeba80b4dd555add7d027df6cd746a"
+        }
+      ]
+    }
+  ]
+}
