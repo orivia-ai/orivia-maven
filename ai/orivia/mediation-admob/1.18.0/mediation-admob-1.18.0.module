@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.orivia",
+    "module": "mediation-admob",
+    "version": "1.18.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.orivia",
+          "module": "monetization",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediation-admob-1.18.0.aar",
+          "url": "mediation-admob-1.18.0.aar",
+          "size": 7685,
+          "sha512": "4f2f256629cbb0430104622512b6cf67fd0d61d83dfbc613d390a0e9e6e6cf28764f6e06e67ae9ad5e2be89be9dd237dad44a1f94f856bea74ec8cf4e8a2535b",
+          "sha256": "3471865294c6b8b74170cbf569feb9ed0e27124a50f4590e1e246818523bf62e",
+          "sha1": "916caa285395af9e8a23038877e4d5a04cb0ab21",
+          "md5": "53b673a22f7b607f64f02633007f3a11"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ai.orivia",
+          "module": "monetization",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediation-admob-1.18.0.aar",
+          "url": "mediation-admob-1.18.0.aar",
+          "size": 7685,
+          "sha512": "4f2f256629cbb0430104622512b6cf67fd0d61d83dfbc613d390a0e9e6e6cf28764f6e06e67ae9ad5e2be89be9dd237dad44a1f94f856bea74ec8cf4e8a2535b",
+          "sha256": "3471865294c6b8b74170cbf569feb9ed0e27124a50f4590e1e246818523bf62e",
+          "sha1": "916caa285395af9e8a23038877e4d5a04cb0ab21",
+          "md5": "53b673a22f7b607f64f02633007f3a11"
+        }
+      ]
+    }
+  ]
+}
